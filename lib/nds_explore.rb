@@ -10,8 +10,8 @@ def pretty_print_nds(nds)
   pp directors_database
 end
 
-#def print_first_directors_movie_titles
-  
+def print_first_directors_movie_titles
+  pp directors_database
 ##while directors_database do
 ##  i = 0
 #  i += 1
@@ -19,7 +19,7 @@ end
   #end
    # pp 
  # def ruby lib/nds_explore.rb
-#end
+end
 
 
 
