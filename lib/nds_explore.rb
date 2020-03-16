@@ -15,7 +15,7 @@ def print_first_directors_movie_titles
 while print_first_directors_movie_titles do
   i = 0
   i += 1
-  print_first_directors_movie_titles.each == "Steven Spielberg" 
+  print_first_directors_movie_titles.each == [first_directors] 
   end
     pp print_first_directors_movie_titles
     
