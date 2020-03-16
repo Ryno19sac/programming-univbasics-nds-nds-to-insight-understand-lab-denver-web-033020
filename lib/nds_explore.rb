@@ -18,8 +18,7 @@ def print_first_directors_movie_titles
  # directors_database.each == [print_first_directors_movie_titles] 
   #end
     pp 
-  def pretty_print_nds(nds)
-  pp nds
+  def ruby lib/nds_explore.rb
 end
 
 
