@@ -10,15 +10,15 @@ def pretty_print_nds(nds)
   nil
 end
 
-def print_first_directors_movie_titles
+#def print_first_directors_movie_titles
   
 ##while directors_database do
 ##  i = 0
 #  i += 1
  # directors_database.each == [print_first_directors_movie_titles] 
   #end
-    pp 
-  def ruby lib/nds_explore.rb
+   # pp 
+ # def ruby lib/nds_explore.rb
 end
 
 
