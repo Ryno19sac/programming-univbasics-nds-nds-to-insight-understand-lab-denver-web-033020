@@ -12,11 +12,11 @@ end
 
 def print_first_directors_movie_titles
   
-while directors_database do
-  i = 0
-  i += 1
-  directors_database.each == [print_first_directors_movie_titles] 
-  end
+##while directors_database do
+##  i = 0
+#  i += 1
+ # directors_database.each == [print_first_directors_movie_titles] 
+  #end
     pp 
     
   end
