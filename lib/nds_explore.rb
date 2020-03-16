@@ -16,9 +16,9 @@ while print_first_directors_movie_titles do
   i = 0
   i += 1
   while 
-  print_first_directors_movie_titles.each == [] 
+  print_first_directors_movie_titles.each == [directors_database] 
   end
-    pp print_first_directors_movie_titles
+    pp 
     
   end
 
