@@ -18,7 +18,11 @@ def print_first_directors_movie_titles
  # directors_database.each == [print_first_directors_movie_titles] 
   #end
     pp 
-    
+  def pretty_print_nds(nds)
+  pp nds
+end
+
+pretty_print_nd(directors_database)
   end
 
 
