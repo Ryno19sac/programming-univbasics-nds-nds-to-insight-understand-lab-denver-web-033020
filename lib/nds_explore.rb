@@ -2,10 +2,23 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
 # Call the method directors_database to retrieve the NDS
 
+
 def pretty_print_nds(nds)
   # Change the code below to pretty print the nds with pp
+  
+  pp directors_database
   nil
 end
 
 def print_first_directors_movie_titles
+  
+while print_first_directors_movie_titles do
+  i = 0
+  i += 1
+  print_first_directors_movie_titles until print_first_directors_movie_titles = "Steven Spielberg" 
+    
+    pp print_first_directors_movie_titles
+    
+  end
+
 end
