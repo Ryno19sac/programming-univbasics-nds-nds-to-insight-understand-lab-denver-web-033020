@@ -15,7 +15,9 @@ def print_first_directors_movie_titles
 while print_first_directors_movie_titles do
   i = 0
   i += 1
-  print_first_directors_movie_titles.each == [first_directors] 
+  while 
+  print_first_directors_movie_titles 
+  print_first_directors_movie_titles.each == [] 
   end
     pp print_first_directors_movie_titles
     
