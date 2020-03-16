@@ -1,6 +1,7 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
 require 'pp'
+require 'pry'
 # Call the method directors_database to retrieve the NDS
 
 
@@ -13,10 +14,13 @@ end
 def print_first_directors_movie_titles
   pp directors_database
 ##while directors_database do
-##  i = 0
-#  i += 1
- # directors_database.each == [print_first_directors_movie_titles] 
-  #end
+
+movies = directors_database[0][:movies]
+i = 0  
+while i < movies.length do
+ binding.pry
+ i += 1
+ end
    # pp 
  # def ruby lib/nds_explore.rb
 end
